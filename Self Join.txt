@@ -1,0 +1,4 @@
+SELECT * 
+FROM products 
+SELF JOIN productlines
+ON products.productLine=productlines.productLine;

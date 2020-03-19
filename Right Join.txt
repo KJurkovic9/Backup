@@ -1,0 +1,3 @@
+SELECT * FROM offices
+RIGHT JOIN customers
+ON customers.customerNumber=payments.customerNumber;

@@ -1,0 +1,3 @@
+SELECT * FROM payments 
+LEFT JOIN employees 
+ON employees.officeCode=offices.officeCode;

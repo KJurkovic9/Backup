@@ -1,0 +1,4 @@
+SELECT lastName,firstName,employeeNumber,reportsTo,firstName,lastName,employeeNumber,reportsTo 
+FROM employees  
+INNER JOIN employees  
+ON m.employeeNumber=e.reportsTo;
